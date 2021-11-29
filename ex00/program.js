@@ -2,7 +2,7 @@ function twoNumberSum(array, targetSum){
     for(let i = 0; i < array.length ; i++){
         for(let y = 1; y < array.length;y++){
             temp = array[i] + array[y];
-            if(temp == targetSum){
+            if(temp == targetSum && i != y){
                 return [array[i],array[y]];
             }
         }
