@@ -5,7 +5,6 @@ function threeLargestNumbers(array){
     
       for(let i = 0;i < 3;i++){
       max = Math.max(...array);
-        //index = temp.indexOf(max);
         temp2.push(max);
         array.splice(array.indexOf(max), 1);
       }
