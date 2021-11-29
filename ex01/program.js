@@ -7,3 +7,6 @@ function isPalindrome(string){
     
     }
     }
+    
+    exports.isPalindrome =  isPalindrome;
+    
