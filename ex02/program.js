@@ -13,3 +13,4 @@ function threeLargestNumbers(array){
       temp2[2] = temp3;
      return temp2;
     }
+    exports.threeLargestNumbers =  threeLargestNumbers;
