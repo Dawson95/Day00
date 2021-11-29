@@ -11,7 +11,10 @@ function twoNumberSum(array, targetSum){
   return [];
   }
   
-  console.log(twoNumberSum([1,2,10,8,7,4,9,47],14));
+//   console.log(twoNumberSum([1,2,10,8,7,4,9,47],14));
   
 
 exports.twoNumberSum = twoNumberSum;
+
+
+
